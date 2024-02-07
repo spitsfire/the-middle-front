@@ -1,17 +1,18 @@
-import { useState } from 'react'
-import './App.css'
-import Header from './components/Header'
-import Jumbotron from './components/Jumbotron'
+import Form from "./components/form/Form";
+import Header from "./components/Header";
+import Jumbotron from "./components/Jumbotron";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div id="container">
+    <div id='container' className='text-gray-600'>
       <Header />
-      <Jumbotron />
+      <main className='mt-28'>
+        {/* <Jumbotron /> */}
+        <Form />
+      </main>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
