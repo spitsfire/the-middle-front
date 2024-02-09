@@ -17,7 +17,7 @@ const ActivitiesFilter = () => {
   return (
     <div id='activities' className='mt-12'>
       <h1 className='text-xl mb-3'>Activities for Midpoint</h1>
-      <label for='activities' className='form-label'>
+      <label htmlFor='activities' className='form-label'>
         Click on any activities that interest you:
       </label>
       <div className='flex justify-around'>{displayActivityPills}</div>
