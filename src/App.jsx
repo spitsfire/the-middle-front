@@ -1,3 +1,4 @@
+import { Routes, Route } from "react-router-dom";
 import Form from "./components/form/Form";
 import Header from "./components/Header";
 import Jumbotron from "./components/Jumbotron";
@@ -7,10 +8,10 @@ function App() {
   return (
     <div id='container' className='text-gray-600'>
       <Header />
-      <main className='mt-28'>
-        {/* <Jumbotron /> */}
-        <Form />
-      </main>
+      <Routes>
+        <Route path='/' element={<Jumbotron />} />
+        <Route path='/midpoint' element={<Form />} />
+      </Routes>
     </div>
   );
 }
