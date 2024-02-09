@@ -12,12 +12,12 @@
   .btn-activity-filtered button {
     @apply bg-primary-300 rounded-full border border-primary-500 text-white;
     font-weight: 500;
-    padding: .3rem .7rem;
+    padding: .2rem .8rem;
   }
   .btn-activity button {
-    @apply bg-gray-300 rounded-full border border-gray-500 text-gray-600;
+    @apply bg-gray-200 rounded-full border border-gray-300 text-gray-500;
     font-weight: 300;
-    padding: .3rem .7rem;
+    padding: .2rem .8rem;
 
   }
 }

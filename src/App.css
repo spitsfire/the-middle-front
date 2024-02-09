@@ -22,7 +22,7 @@ header > *{
 
 }
 .btn-activity-filtered button:nth-child(even) {
-  padding: .3rem .3rem;
+  padding: .2rem .3rem;
   border-top-left-radius: .0 !important;
   border-bottom-left-radius: .0 !important;
   border-left: 0;
@@ -32,12 +32,11 @@ header > *{
   padding-right: 0.3rem;
   border-top-right-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
-  border-right: 1px solid !important;
 
 
 }
 .btn-activity button:nth-child(even) {
-  padding: .3rem .3rem;
+  padding: .2rem .3rem;
   border-top-left-radius: .0 !important;
   border-bottom-left-radius: .0 !important;
   border-left: 0;
