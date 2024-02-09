@@ -1,8 +1,9 @@
 import { Routes, Route } from "react-router-dom";
-import Form from "./components/form/Form";
-import Header from "./components/Header";
-import Jumbotron from "./components/Jumbotron";
+import Form from "./pages/Form";
+import Header from "./components/shared/Header";
+import Jumbotron from "./pages/Jumbotron";
 import "./App.css";
+import Results from "./pages/Results";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Jumbotron />} />
         <Route path='/midpoint' element={<Form />} />
+        <Route path='/itinerary' element={<Results />} />
       </Routes>
     </div>
   );
