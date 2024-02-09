@@ -1,11 +1,11 @@
 import React from "react";
 
-const Activity = ({ iClicked }) => {
+const Activity = ({ activity }) => {
   return (
     <span className='btn-activity'>
-      <button>Activity</button>
+      <button>{activity}</button>
       <button>
-        <i className='fa-solid fa-xmark'></i>
+        <i className='fa-solid fa-plus'></i>
       </button>
     </span>
   );
