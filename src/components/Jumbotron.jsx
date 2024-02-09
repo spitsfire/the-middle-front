@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Jumbotron = () => {
+  const navigate = useNavigate();
   return (
     <div
       id='jumbotron'
@@ -8,7 +10,12 @@ const Jumbotron = () => {
     >
       <div className='flex flex-col gap-4'>
         <p>Find the best midpoint between friends.</p>
-        <button className='btn bg-rose-500'>Get Started</button>
+        <button
+          className='btn bg-primary-500'
+          onClick={() => navigate("midpoint")}
+        >
+          Get Started
+        </button>
       </div>
     </div>
   );
