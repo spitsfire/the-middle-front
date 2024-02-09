@@ -10,14 +10,14 @@
     @apply px-3 py-2 bg-white border shadow-sm border-gray-300 placeholder-gray-400 disabled:bg-gray-50 disabled:text-gray-500 disabled:border-gray-200 focus:outline-none focus:border-primary-300 focus:ring-primary-400/50 block w-full rounded-md sm:text-sm focus:ring-2 invalid:border-pink-500 invalid:text-orange-600 focus:invalid:border-orange-500 focus:invalid:ring-orange-500 disabled:shadow-none;
   }
   .btn-activity-filtered button {
-    @apply bg-primary-300 rounded border-primary-400 text-white;
-    font-weight: 600;
-    padding: .5rem 1rem;
+    @apply bg-primary-300 rounded-full border border-primary-500 text-white;
+    font-weight: 500;
+    padding: .3rem .7rem;
   }
   .btn-activity button {
-    @apply bg-gray-300 rounded border-gray-400 text-gray-600;
+    @apply bg-gray-300 rounded-full border border-gray-500 text-gray-600;
     font-weight: 300;
-    padding: .5rem 1rem;
+    padding: .3rem .7rem;
 
   }
 }
